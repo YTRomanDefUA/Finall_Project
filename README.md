@@ -77,7 +77,7 @@
 
   <footer class="footer">
     <div class="footer-left">SpaDog</div>
-    <div class="footer-right">© 2023 All rights reserved. <a href="#">Privacy Policy</a></div>
+    <div class="footer-right">© 2023 All Rights Reserved. Privacy Policy. <a href="#">Privacy Policy</a></div>
   </footer>
 </body>
 </html>
