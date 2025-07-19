@@ -14,7 +14,7 @@ body {
 }
 .nav-list {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   list-style: none;
   gap: 30px;
 }
@@ -31,10 +31,8 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
+  padding: 40px;
   background: white;
-}
-.hero-text{
-     padding: 40px;
 }
 .hero-text h1 {
   font-size: 32px;
@@ -45,6 +43,7 @@ body {
 .hero-image img {
   width: 250px;
 }
+
 .btn {
   display: inline-block;
   margin-top: 15px;
@@ -53,6 +52,27 @@ body {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: white;
+  color: #2ecc71;
+  border: 2px solid #2ecc71;
+}
+
+.btn-learn {
+  background: #00aaff;
+  color: white;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-learn:hover {
+  background: white;
+  color: #00aaff;
+  border: 2px solid #00aaff;
 }
 
 .about {
@@ -72,27 +92,21 @@ body {
 .about-text p {
   margin-bottom: 10px;
 }
-.btn-learn {
-  background: #00aaff;
-}
 
 .info {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-;
+  justify-content: space-between;
   padding: 40px;
   background: white;
   position: relative;
 }
-.info-column{
-    flex: 1;
-}
 .info-box {
-  width: 35%;
+  width: 45%;
   margin-bottom: 20px;
 }
 .info-dog {
-    flex: 1;
+  position: absolute;
   right: 20px;
   bottom: 20px;
   width: 150px;
