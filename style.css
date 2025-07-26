@@ -22,10 +22,12 @@ body {
   color: white;
   text-decoration: none;
   padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  transition: all 0.3s ease;
 }
-.nav-list a.active {
-  background: #2ecc71;
-  border-radius: 4px;
+.nav-list a:hover {
+  border: 2px solid #2ecc71;
 }
 
 .hero {
@@ -55,20 +57,17 @@ body {
   border: 2px solid transparent;
   transition: all 0.3s ease;
 }
-
 .btn:hover {
   background: white;
   color: #2ecc71;
   border: 2px solid #2ecc71;
 }
-
 .btn-learn {
   background: #00aaff;
   color: white;
   border: 2px solid transparent;
   transition: all 0.3s ease;
 }
-
 .btn-learn:hover {
   background: white;
   color: #00aaff;
@@ -147,4 +146,11 @@ body {
 .footer a {
   color: #2ecc71;
   text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
+}
+.footer a:hover {
+  border: 2px solid #2ecc71;
 }
