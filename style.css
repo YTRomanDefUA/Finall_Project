@@ -96,19 +96,36 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 40px;
+  padding: 80px;
   background: white;
   position: relative;
 }
+.info-right{
+ width: 70%;
+ display: flex;
+ flex-wrap: wrap;
+
+}
+.info-left{
+  width: 30%;
+}
+.info-box h2{
+  padding-bottom: 20px;
+}
+.info-box p{
+  width: 50%;
+}
 .info-box {
-  width: 45%;
+  flex-direction: column;
   margin-bottom: 20px;
+  gap:10px;
+  width: 50%;
 }
 .info-dog {
-  position: absolute;
   right: 20px;
   bottom: 20px;
-  width: 150px;
+  height: 568px;
+  width: 517px;
 }
 
 .services {
